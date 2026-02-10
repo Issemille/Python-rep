@@ -1,0 +1,6 @@
+#!/Users/isacpalenryd/python/python_for_github/auth_audit_api/venv/bin/python3
+import sys
+from fastapi.cli import main
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(main())
